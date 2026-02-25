@@ -1,0 +1,9 @@
+---
+apiVersion: kro.run/v1alpha1
+kind: AcmeApplication
+spec:
+  name: foo
+  image: ghcr.io/gitops-ci-cd/foo
+  ingress:
+    enabled: true
+    hostnames: []
